@@ -1,0 +1,52 @@
+"Phrases"
+{
+	"Empire"
+	{
+		"ru"		"Империя"
+	}
+	
+	"Consortium"
+	{
+		"ru"		"Консирциум"
+	}
+	
+	"Only Commanders"
+	{
+		"ru"		"Эта функция доступна только для коммандиров"
+	}
+	
+	"Commander Disabled"
+	{
+		"ru"		"Лимит на выбор снайперов отключен"	
+	}
+	
+	"Invalid Team"
+	{
+		"ru"		"Неверная выбрана команда (0 = Консирциум, 1 = Империя)"
+	}
+	
+	"Limit Reached"
+	{
+		"ru"		"Слишком много снайперов в команде"
+	}
+	
+	"Proper Sniper Usage"
+	{
+		"ru"		"Используйте: !maxsnipers <количество>"
+	}
+	
+	"Proper Stealth Usage"
+	{
+		"ru"		"Используйте: !maxstealth <количество>"
+	}
+	
+	"Proper Structure Usage"
+	{
+		"ru"		"Используйте: !MaxAntiStructure <количество>"
+	}
+	
+	"Invalid Args"
+	{
+		"ru"		"Неверные значения аргументов: <команда> <количество>"
+	}
+}

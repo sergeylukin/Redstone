@@ -1,0 +1,11 @@
+"Updater" {
+  "Information" {
+    "Version" {
+      "Latest" "426c50c"
+    }
+  }
+  "Files" {
+    "Plugin" "Path_SM/plugins/nd_continents.smx"
+    "Plugin" "Path_SM/translations/nd_continents.phrases.txt"
+  }
+}

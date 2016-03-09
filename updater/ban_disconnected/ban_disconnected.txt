@@ -1,0 +1,10 @@
+"Updater" {
+  "Information" {
+    "Version" {
+      "Latest" "8d6e86e"
+    }
+  }
+  "Files" {
+    "Plugin" "Path_SM/plugins/ban_disconnected.smx"
+  }
+}

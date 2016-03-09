@@ -1,0 +1,13 @@
+"Updater" {
+  "Information" {
+    "Version" {
+      "Latest" "cb4956a"
+    }
+  }
+  "Files" {
+    "Plugin" "Path_SM/plugins/nd_unit_limit.smx"
+    "Plugin" "Path_SM/translations/de/nd_unit_limit.phrases.txt"
+    "Plugin" "Path_SM/translations/nd_unit_limit.phrases.txt"
+    "Plugin" "Path_SM/translations/ru/nd_unit_limit.phrases.txt"
+  }
+}
