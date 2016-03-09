@@ -42,12 +42,12 @@ git:
 script:
   - make build-$SOURCEMOD
 
-after_success:
-  - |
-      if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then
-        if [ "$SOURCEMOD" = "stable" ]; then
-          # because `make build` was already done before,
-          # we only need to run deploy task
-          make deploy
-        fi
-      fi
+deploy:
+  # don't remove files generated during the "build" task
+  skip_cleanup: true
+  # use custom shell scripting to deploy (we deploy to `build` branch)
+  provider: script
+  script: echo "DEPLOYING :)"
+  # only run this when master branch is modified
+  on:
+    branch: master
